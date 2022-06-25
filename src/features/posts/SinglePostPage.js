@@ -33,7 +33,7 @@ export const SinglePostPage = ({ match }) => {
                     {post.content}
                 </p>
                 <Link
-                    
+                    to={`/editPost/${post.id}`}
                 >
 
                 </Link>
